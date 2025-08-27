@@ -28,7 +28,7 @@ Turn bulk text, markdown, or prose into a fully formatted PowerPoint presentatio
    All existing slides are cleared (layouts remain). New slides are added using the template’s actual layouts; picture placeholders are filled from the collected image pool. If a slide has no body content, a tasteful image may be placed to balance the composition.
 
 4. **Export**
-   A fresh `.pptx` is produced for download—no template is modified on disk.
+   A fresh `.pptx` is produced for download, no template is modified on disk.
 
 ---
 
@@ -62,6 +62,6 @@ Open the local URL Streamlit prints, then:
 4. Upload `.pptx` or `.potx` template
 5. Click **Generate presentation** → **Download .pptx**
 
-> **Note**: Keys are kept only in memory for the request and aren’t persisted by the app. If you host this yourself, ensure your platform’s logging doesn’t capture secrets (see Security below).
+> **Note**: Keys are kept only in memory for the request and aren’t persisted by the app. If you host this yourself, ensure your platform’s logging doesn’t capture secrets.
 
 ---
