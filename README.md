@@ -65,9 +65,3 @@ Open the local URL Streamlit prints, then:
 > **Note**: Keys are kept only in memory for the request and aren’t persisted by the app. If you host this yourself, ensure your platform’s logging doesn’t capture secrets (see Security below).
 
 ---
-
-
-
-## 📄 License
-
-Choose a license that fits your use (e.g., MIT). Add a `LICENSE` file in the repo.
