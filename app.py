@@ -528,7 +528,7 @@ with col_right:
 
     disabled = not (input_text and upl and (provider == "Local heuristic" or api_key))
 
-    if st.button("🚀 Generate presentation", type="primary", disabled=disabled, use_container_width=True):
+    if st.button("Generate presentation", type="primary", disabled=disabled, use_container_width=True):
         if not upl:
             st.error("Please upload a .pptx or .potx template.")
         else:
@@ -543,7 +543,7 @@ with col_right:
 
                     st.success("Done! Your themed presentation is ready.")
                     st.download_button(
-                        "⬇️ Download .pptx",
+                        "Download .pptx",
                         data=pptx_bytes,
                         file_name="your-text-your-style.pptx",
                         mime="application/vnd.openxmlformats-officedocument.presentationml.presentation",
